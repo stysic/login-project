@@ -37,12 +37,22 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #0c0e12;
+    overflow: hidden;
     width: 250px;
     height: 480px;
     border-radius: 12px;
+    box-shadow: 0px 0px 10px #ffffffce;
 }
 section#login > div#imagem {
-    background: #0c0e12 url(../imagens/800px-The_War_Within_logo_noRays.webp);
-    background-size: contain;
+    background: #0c0e12 url(../imagens/dimensions.jpeg);
+    display: block;
+    background-size: cover;
     height: 200px;
+    background-position: center center;
+    
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
