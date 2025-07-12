@@ -11,3 +11,38 @@
     --cor5: white;
     --cor6: #FFFFFFD6;
 }
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    color: #FFFFFFD6;
+    background-color: #15171E;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0c0e12;
+    width: 250px;
+    height: 480px;
+    border-radius: 12px;
+}
+section#login > div#imagem {
+    background: #0c0e12 url(../imagens/800px-The_War_Within_logo_noRays.webp);
+    background-size: contain;
+    height: 200px;
+}
