@@ -19,8 +19,9 @@
 }
 
 body, html {
+    background: url(../imagens/background.jpg) center center;
+    background-position: cover;
     color: #FFFFFFD6;
-    background-color: #15171E;
     height: 100vh;
     width: 100vw;
 }
