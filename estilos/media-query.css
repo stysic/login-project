@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) { /* tablet */
     body {
         background: url(../imagens/background.jpg) center center;
-        background-position: cover;
+        background-size: cover;
     }
     section#login {
         width: 72vw;
